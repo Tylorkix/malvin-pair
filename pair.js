@@ -75,11 +75,11 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "suho~" + string_session;
+                        let md = "kirito~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, suho md User!* 👋🏻
+                        let desc = `*Hey there, kirito md User!* 👋🏻
 
-Thanks for using *SungSu-ho-MD* — your session has been successfully created!
+Thanks for using *Kirito-sao-MD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -92,7 +92,7 @@ https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/SungSu-ho-MD
+https://github.com/NaCkS-ai/Kirito-sao-MD
 
 ——————
 
@@ -113,9 +113,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, suho md User!* 👋🏻
+                            let desc = `Hey there, kirito md User!* 👋🏻
 
-Thanks for using *SungSu-ho-MD* — your session has been successfully created!
+Thanks for using *Kirito-sao-MD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -128,7 +128,7 @@ https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/SungSu-ho-MD
+https://github.com/NaCkS-ai/Kirito-sao-MD
 
 ——————
 
